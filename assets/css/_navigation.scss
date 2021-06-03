@@ -1,0 +1,128 @@
+
+#navigation{
+    max-width: 100%;
+    margin: 0px auto;
+    ::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: $background-color; 
+        
+      }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // height: 100px;
+        margin: 15px 0;
+        .nav{
+
+            position: relative;
+            display: block;
+            .nav-list-shop:hover .shop-items{
+                display: block;
+            }
+            .navlist{
+                list-style-type: none;
+                display: inline-block;
+                .nav-link{
+                    font-size: 16px;
+                    display: inline;
+                    color: $text-color;
+                    text-decoration: none;
+                    padding: 10px 27px;
+                    font-family: Poppins-Light;
+                    transition: .2s;
+                    &:hover{
+                        border-bottom: 3px solid $background-color;
+                    }
+                }
+                .shop-items{
+                    display: none;
+                    position: absolute;
+                    width: 1263px;
+                    background-color: $background-grey;
+                    left: -194px;
+                    top: 36px;
+                    .shop-container{
+                        display: flex;
+                        padding: 10px;
+                        justify-content: space-between;                      
+                        .shop-item{
+                            background-color: #fff;
+                            margin: 10px;
+                            flex-grow: 1;
+                            flex-shrink: 1;
+                            max-width: 100%;
+                            box-shadow: 0 0 18px rgba(0,0,0,0.3);
+                            flex-direction: column;
+                            width: 250px;
+                            height: 401px;
+                            .beer .shop-head-link{
+                                border-bottom: 1px solid $border-color;
+                                margin-top: 16px;
+                            }
+                            .shop-head{
+                                display: block;
+                                .fas{
+                                    font-size: 30px;
+                                }
+                                a{
+                                    display: block;
+                                    padding: 20px 22px;
+                                    line-height: 30px;
+                                    font-family: Poppins-SemiBold;
+                                    color: $text-color;
+                                    text-decoration: none;
+                                    &:hover{
+                                        color: $background-color;
+                                    }
+                                }
+                                .shop-head-link{
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                            }
+                            .shop-item-bottom{
+                                margin-top: 5px;
+                                .shop-item-list{
+                                    list-style: none;
+                                    a{
+                                        display: block;
+                                        padding: 10px 12px;
+                                        border-top: 1px solid $border-color;
+                                        color: $text-color;
+                                        text-decoration: none;
+                                        font-family: Poppins-Light;
+                                    }
+                                }
+                            }
+                            .browse{
+                                .browse-img{
+                                    padding: 0;
+                                    margin: 0;
+                                    img{
+                                        width: 100%;
+                                        height: 350px;
+                                    }
+                                }
+                            }
+                        }
+                        .shop-itemm{
+                            overflow: auto;   
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

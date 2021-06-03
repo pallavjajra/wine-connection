@@ -1,0 +1,29 @@
+.free-delivery{
+    background-color: $background-color;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    p{
+        text-align: center;
+        color: $font-color;
+        padding: 5px 0;
+        font-family: Poppins-Regular;
+        font-size: 14px;
+        a{
+            color: $font-color;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .fas{
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-100%,50%);
+        color: $font-color;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}

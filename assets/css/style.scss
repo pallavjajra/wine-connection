@@ -1,0 +1,393 @@
+@import "font-face";
+@import "variables";
+@import "free-delivery";
+@import "logo-section";
+@import "navigation";
+@import "banner";
+*{
+    margin: 0;
+    // border: 1px solid red;
+    padding: 0;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 10000px;
+}
+section{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.heading{
+    font-family: Poppins-Bold;
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+    font-size: 45px;
+}
+
+.great{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        z-index: -1;
+        background: #F0F0F0;
+    }
+     .container-box{
+        max-width: 100%;
+        margin: 0 auto;
+        .veriety{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .veriety-order{
+                list-style: none;
+                border-bottom: 1px solid rgba(0,0,0,.4);
+                .veriety-list{
+                    display: inline-block;
+                    padding-bottom: 8px;
+                    .veriety-link{
+                        padding: 6px 18px;
+                        color: #333;
+                        text-decoration: none;
+                        font-family: Poppins-regular;
+                        &:hover,&.active{
+                            color: #000;
+                            border-bottom: 3px solid $background-color;
+                        }
+                    }
+                }
+            }
+        }
+        .carausel-box{
+            width: 100%;
+            margin: 0 auto;
+            padding: 0px 48px;
+            .veriety-item{
+                max-width: 386px;
+                text-align: center;
+                margin: 20px 39px;
+                box-shadow: 0 0px 16px rgb(167, 165, 165);
+                position: relative;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 55%;
+                    z-index: -1;
+                    background: #FFF0F0;
+                }
+                &:hover{
+                    box-shadow: 0 0px 26px rgb(121, 119, 119);
+                }
+                .image{
+                    width: 100%;
+                    position: relative;
+                    
+                    img{
+                        width: 100%;
+                    }
+                }
+                .wine-info{
+                    color: #333;
+                    text-decoration: none;
+                    margin: 46px 12px 14px 12px;
+                    display: block;
+                    font-family: Poppins-Regular;
+                }
+                .wine-price{
+                    font-family: Poppins-Regular;
+                    color: $background-color;
+                    span{
+                        color: #333;
+                        font-family: Poppins-Thin;
+                        margin-left: 29px;
+                        text-decoration: line-through;
+                    }
+                }
+                .wine-offer{
+                    background-color: $wine-offer-color;
+                    border-radius: 13px;
+                    display: inline-block;
+                    font-family: Poppins-Medium;
+                    padding: 5px 18px;
+                    margin: 5px 0;
+                    color: $font-color;
+                }
+                .wine-btn{
+                    padding: 5px;
+                    .button{
+                        font-family: Poppins-Medium;
+                        color: $background-color;
+                        display: inline-block;
+                        text-decoration: none;
+                        background: #fff;
+                        padding: 11px 31px;
+                        border-radius: 5rem;
+                        box-shadow: 0px 0px 16px #adadad;
+                        transition: all .5s ease-in-out;
+                        margin-bottom: 10px;
+                        &:hover{
+                            color: $font-color;
+                            background-color: $background-color;
+                            box-shadow: none;
+                        }
+                    }
+                    .fa-heart{
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 10px #adadad;
+                        margin-left: 20px;
+                        cursor: pointer;
+                        border: 1px solid rgba(0,0,0,.3);
+                        padding: 14px;
+                        &:hover{
+                            background-color: $background-color;
+                            color: $font-color;
+                        }
+                    }
+                }
+                .tag{
+                    position: absolute;
+                    top: -10px;
+                    left: 7px;
+                    max-width: 75px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .slick-next.slick-disabled:before, .slick-prev.slick-disabled:before {
+            opacity: .8;
+            font-size: 38px;
+            color: $background-color;
+        }
+        .slick-next.slick-disabled:before, .slick-prev.slick-disabled:before {
+            opacity: .8;
+            font-size: 40px;
+        }
+        .slick-prev:before {
+            content: '←';
+        }
+        .slick-next:before, .slick-prev:before {
+            font-family: slick;
+            font-size: 38px;
+            line-height: 1;
+            opacity: .8;
+            color: $background-color;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .slick-next {
+            right: 39px;
+        }
+        .slick-prev {
+            left: 17px;
+        }
+        .slick-dots {
+            position: absolute;
+            bottom: -25px;
+            display: block;
+            max-width: 100%;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .fa-bars{
+//     display: block;
+//     z-index: 10000000000;
+//     position: fixed;
+//     top: 11px;
+//     left: 16px;
+//     color: #000;
+//     font-size: 22px;
+//     cursor: pointer;
+// }
+
+
+@media only screen and (max-width: 1024px) {
+    .navtoggle{
+        left: 0 !important;
+    }
+    .free-delivery {
+      display: none; 
+    }
+    .fa-bars{
+        display: block;
+        z-index: 10000000000;
+        position: fixed;
+        top: 21px;
+        padding: 10px;
+        left: 21px;
+        background: #fff;
+        color: #000;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    #navigation {
+      position: fixed;
+      transition: .3s ease-in-out;
+      top: 0;
+      left: -120%;
+      background: rgba(0,0,0,.4);
+      width: 100%;
+      height: 100%;
+      z-index: 1111;
+      .navbar{
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin: 0;
+            margin-left: 76px;
+            height: 100%;
+          .nav {
+            width: 90%;
+            height: 100%;
+            background: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            }
+            .navlist {
+                display: block;
+                margin: 10px; } 
+              }
+    }
+    
+}
+
+
+
+
+@media only screen and(max-width: 768px){
+    .logo-section {
+        .country, .sign-in{
+            display: none;
+        }
+    }
+    .logo-section .container {
+        justify-content: center;
+    }
+    .logo-section .container .logo {
+        left: 0;
+    }
+    .banner-container {
+        flex-flow: column;
+    }
+    .banner-container .rioja {
+        flex-basis: 33%;
+    }
+    .banner-container .img-vid {
+        flex-basis: 67%;
+    }
+    .container-box .carausel-box .veriety-item .tag {
+        top: -7px;
+        left: 7px;
+        max-width: 54px;
+    }
+
+    .container-box .carausel-box .veriety-item .wine-info {
+        font-size: 14px;
+    }
+    .container-box .carausel-box .veriety-item .wine-price {
+        font-size: 16px;
+    }
+    .container-box .carausel-box .veriety-item .wine-btn .button {
+        padding: 11px 26px;
+        font-size: 12px;
+    }
+    .container-box .carausel-box .veriety-item .wine-btn .fa-heart {
+
+        margin-left: 6px;
+        padding: 11px;
+    }
+    .container-box .carausel-box .veriety-item .wine-price span {
+        margin-left: 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and(max-width: 576px){
+    .container-box .carausel-box .veriety-item .tag {
+        top: -7px;
+        left: 7px;
+        max-width: 34px;
+    }
+    .container-box .carausel-box .veriety-item .wine-info {
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+@media only screen and(max-width: 476px){
+    .container-box .carausel-box .veriety-item .tag {
+        top: -7px;
+        left: 7px;
+        max-width: 54px;
+    }
+}

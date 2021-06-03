@@ -1,0 +1,44 @@
+.fa-bars{
+    display: none;
+}
+.banner-container{
+    max-width: 100%;
+    height: 540px;
+    display: flex;
+    .rioja{
+        flex-basis: 67%;
+        .img-rioja{
+            background: url(../images/banner.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .img-vid{
+        flex-basis: 33%;
+        height: 100%;
+        .img{
+            width: 100%;
+            height: 50%;
+            .img-food-delivery{
+                background: url(../images/food-delivery.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .vid{
+            height: 50%;
+            width: 100%;
+            iframe{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

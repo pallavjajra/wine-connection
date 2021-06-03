@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Slick Css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <!-- Slick theme css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Wine Connection</title>
+</head>
+
+<body>
+    <!-- free delivery section -->
+    <div class="free-delivery">
+        <p>Free 2-hr* Delivery For Order Above $100 |
+            <a href="#"> Buy 6 Get 10% off Regular-Priced Wines</a>
+        </p>
+        <div id="top-toggle" class="fas fa-times">
+        </div>
+    </div>
+    <!-- LOGO section -->
+    <section class="logo-section">
+        <div class="container">
+            <div class="country">
+                <span class="singapore">Singapore <i class="fas fa-chevron-down"></i></span>
+                <div id="country-toggle">
+                    <div class="country-item"><span class="fas fa-caret-up"></span><a href="#">Malaysia</a><a
+                            href="#">Thailand</a></div>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="">
+            </div>
+            <div class="sign-in">
+                <i class="fas fa-search"></i>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+                <i class="far fa-user">
+                    <div class="sign-in-items">
+                        <a href="#">Sign in</a>
+                        <a href="#">Create an account</a>
+                    </div>
+                </i>
+
+            </div>
+        </div>
+    </section>
+    <!-- LOGO section End -->
+    <section id="navigation">
+        <nav class="navbar">
+            <ul class="nav">
+                <li class="navlist nav-list-shop">
+                    <a href="#" class="shop nav-link">Shop Online</a>
+                    <div class="shop-items">
+                        <div class="shop-container">
+                            <div class="shop-item">
+                                <div class="shop-head">
+                                    <a class="shop-head-link" href="#">
+                                        <span>All Wine</span> <i class="fas fa-wine-bottle"></i>
+                                    </a>
+                                </div>
+                                <div class="shop-item-bottom">
+                                    <ul class="shop-item-list">
+                                        <li><a href="#">Fine Wine</a></li>
+                                        <li><a href="#">Red Wine</a></li>
+                                        <li><a href="#">White Wine</a></li>
+                                        <li><a href="#">Rosé</a></li>
+                                        <li><a href="#">Sweet Wine</a></li>
+                                        <li><a href="#">Organic & Biodynamic</a></li>
+                                        <li><a href="#">Champagne & Sparkling</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-head">
+                                    <a class="shop-head-link" href="#"><span>All Cheese</span> <i
+                                            class="fas fa-cheese"></i></a>
+                                </div>
+                                <div class="shop-item-bottom">
+                                    <ul class="shop-item-list">
+                                        <li><a href="#">Blue Cheese</a></li>
+                                        <li><a href="#">Hard Cheese</a></li>
+                                        <li><a href="#">Soft Cheese</a></li>
+                                        <li><a href="#">Cheese Platter</a></li>
+                                        <li><a href="#">Mini Stick Plain</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-head beer">
+                                    <a class="shop-head-link" href="#"><span>Beer</span> <i class="fas fa-beer"></i></a>
+                                    <a class="shop-head-link" href="#"><span>Liquor & Spirits</span> <i
+                                            class="fas fa-glass-cheers"></i></a>
+                                    <a class="shop-head-link" href="#"><span>Accessories</span> <i
+                                            class="fas fa-briefcase"></i></a>
+                                    <a class="shop-head-link" href="#"><span>Voucher & Gift Ideas</span> <i
+                                            class="fas fa-gift"></i></a>
+                                </div>
+                            </div>
+                            <div class="shop-item shop-itemm">
+                                <div class="shop-head browse">
+                                    <a class="shop-head-link" href="#"><span>Browse All Products</span> <i
+                                            class="fas fa-chevron-right"></i></a>
+                                    <a href="#" class="browse-img"><img src="assets/images/SALE_RED_CTA_300x300.jpg"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navlist">
+                    <a href="#" class="wine nav-link">Wine Shops</a>
+                </li>
+                <li class="navlist nav-list-restaurants">
+                    <a href="#" class="restaurants nav-link">Restaurants</a>
+                    
+                </li>
+                <li class="navlist">
+                    <a href="#" class="events nav-link">Events</a>
+                    
+                </li>
+                <li class="navlist">
+                    <a href="#" class="news nav-link">News & Articles</a>
+                    
+                </li>
+                <li class="navlist">
+                    <a href="#" class="club nav-link">Wine Club</a>
+                    
+                </li>
+            </ul>
+        </nav>
+        
+    </section>
+    <!-- Banner start -->
+    <i class="fas fa-bars"></i>
+    <section class="banner">
+        <div class="banner-container">
+            <div class="rioja">
+                <div class="img-rioja"></div>
+                <!-- <img src="assets/images/banner.jpg" alt=""> -->
+            </div>
+            <div class="img-vid">
+                <div class="img">
+                    <div class="img-food-delivery"></div>
+                </div>
+                <div class="vid">
+                    <!-- <embed src="https://www.youtube.com/watch?v=EsgCyMRAYhk" type=""> -->
+                        <iframe  src="https://www.youtube.com/embed/EsgCyMRAYhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner end -->
+    <!-- Greate deals -->
+    <section class="great"> 
+        <h1 class="heading">Great Deals</h1>
+        <div class="container-box">
+            <div class="veriety">
+                <ul class="veriety-order">
+                    <li class="veriety-list"><a class="veriety-link active" href="#">ALL</a></li>
+                    <li class="veriety-list"><a class="veriety-link" href="#">RED WINE</a></li>
+                    <li class="veriety-list"><a class="veriety-link" href="#">WHITE WINE</a></li>
+                    <li class="veriety-list"><a class="veriety-link" href="#">CHAMPAGNE & SPARKLING</a></li>
+                    <li class="veriety-list"><a class="veriety-link" href="#">BEER</a></li>
+                    <li class="veriety-list"><a class="veriety-link" href="#">LIQUOR & SPIRITS</a></li>
+                </ul>
+            </div>
+            <div class="carausel-box">
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-1.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-2.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-3.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-4.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-5.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-6.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-7.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-8.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-9.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-10.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-11.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-12.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-13.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-14.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-15.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-16.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-17.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-18.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-19.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-20.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-21.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-22.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-23.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-24.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-25.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-26.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-27.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-28.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-29.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+                <div class="veriety-item">
+                    <a href="#" class="image">
+                        <img src="assets/images/wine-30.png" alt="">
+                    </a>
+                    <a class="wine-info" href="#">                        
+                        MARCEL ET LEA FAUCHEUR CALVADOS VSOP 4 YEARS                        
+                    </a>
+                    <h3 class="wine-price">$99.00<span>$120.00</span></h3>
+                    <h5 class="wine-offer">18% Off</h5>
+                    <div class="wine-btn">
+                        <a class="button" href="#">ADD TO CART</a>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="tag">
+                        <img src="assets/images/sale-tag.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Greate deals -->
+
+    <!-- JS File -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- migrate file (Slick Slider) -->
+    <script src="assets/js/migrate.js"></script>
+    <!-- Slick Slider Js File -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
